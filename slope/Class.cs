@@ -292,7 +292,6 @@ namespace ClassLibrary
             while (tmpDis <= topCurveLen)
             {
                 pt1 = myCurve1.GetClosestPointTo(myCurve1.GetPointAtDist(tmpDis), false);
-                //v1 = myCurve1.GetFirstDerivative(myCurve1.GetClosestPointTo(pt1, false)).GetNormal();
 
                 v1 = lhline.LhGetFirstDerivative(myCurve1, myCurve1.GetClosestPointTo(pt1, false)).GetNormal();
 
