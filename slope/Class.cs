@@ -38,9 +38,7 @@ namespace ClassLibrary
     {
         public Class()
         {
-            //
-            // TODO: Add constructor logic here
-            //
+            
         }
 
         [CommandMethod("spx")]
