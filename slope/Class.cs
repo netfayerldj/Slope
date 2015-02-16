@@ -58,6 +58,7 @@ namespace ClassLibrary
             Point3d drillPt;            //锥坡顶点
             Curve topCurve = null, bottomCurve; //坡顶线和坡底线
             int myColor = 3;
+            /////afdasfa
 
             #region 选择坡顶线
 
